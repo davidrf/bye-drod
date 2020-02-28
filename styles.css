@@ -199,7 +199,6 @@ body {
 /* Stampede */
 
 #trigger {
-  margin: 30px auto;
   display: block;
   background-color: red;
   color: white;
@@ -208,6 +207,8 @@ body {
   font-size: 40px;
   border-radius: 6px;
   cursor: pointer;
+  margin-top: 30px;
+  z-index: 420;
 }
 
 #trigger:hover {
@@ -219,7 +220,7 @@ body {
   width: 100%;
   position: fixed;
   bottom: 0;
-  z-index: 100;
+  z-index: 69;
 }
 
 #dustcloud {
