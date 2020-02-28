@@ -5,7 +5,7 @@
 # Instructions
 
 1. Submit a PR with some inconsequential change (add/remove a space) and leave your farewell message in 
-the git commit. That's it!
+the git commit. That's it!    
 
 Many people have been running into this error if they git clone then try pushing up a branch:
 ```
