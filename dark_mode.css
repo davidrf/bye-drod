@@ -1,0 +1,18 @@
+@media (prefers-color-scheme: dark) {
+  html > body > navbar > .navbar-inner {
+    background: #ff00ff !important;
+  }
+  html > body > navbar > .navbar-inner::after {
+    content: 'DARK MODE' !important;
+    position: absolute !important;
+    top: 25px !important;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  html > body > navbar > .navbar-inner::after {
+    content: 'LIGHT MODE (try our new dark mode!!!)' !important;
+    position: absolute !important;
+    top: 25px !important;
+  }
+}
