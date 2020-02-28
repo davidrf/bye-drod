@@ -1,10 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
   console.log('Bye D-Rod!');
-  const idiotVideo = document.getElementById('idiot');
-  document.getElementById('prize').addEventListener('click', function() {
-    idiotVideo.classList.remove('hidden');
-    idiotVideo.play();
-  });
+  setPrizeTrap();
   browserNotificationToast();
   howToTellAPageIsHostedOnSquarespace();
 });
@@ -131,4 +127,12 @@ function howToTellAPageIsHostedOnSquarespace() {
       window.location.assign('https://login.squarespace.com');
     }
   };
+}
+
+function setPrizeTrap() {
+  const idiotVideo = document.getElementById('idiot');
+  document.getElementById('prize').addEventListener('click', function() {
+    idiotVideo.classList.remove('hidden');
+    idiotVideo.play();
+  });
 }
